@@ -3,8 +3,8 @@ import NavBar from './element/NavBar';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './element/pages/Home';
-import About from './element/pages/About';
-import Contact from './element/pages/Contact';
+import About from './element/about/About';
+import Contact from './element/contact/Contact';
 import SignIn from './element/Signin';
 
 function App() {
@@ -24,5 +24,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
  //link to /insta then use routes here to change it to instagram page (about is in use for insta)
